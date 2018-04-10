@@ -10,7 +10,7 @@ namespace WebApplication1.Controllers
     {
         public ActionResult Form()
         {
-            ViewBag.Message = "Registration hjjkhkjForm";
+            ViewBag.Message = "Registration Form";
 
             return View();
         }
