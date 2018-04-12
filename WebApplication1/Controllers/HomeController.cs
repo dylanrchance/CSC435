@@ -8,6 +8,13 @@ namespace WebApplication1.Controllers
 {
     public class HomeController : Controller
     {
+        public ActionResult Form()
+        {
+            ViewBag.Message = "Registration Form";
+
+            return View();
+        }
+
         public ActionResult Index()
         {
             return View();
@@ -22,9 +29,12 @@ namespace WebApplication1.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Great Contact Page";
 
             return View();
         }
+
+
+
     }
 }
